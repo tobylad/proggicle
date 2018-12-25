@@ -1,0 +1,8 @@
+<h1 id="artist-title"><%= @songs.first.artist.name %></h1>
+
+<div class="row songs-list">
+  <% @songs.each do |song| %>
+      <span class="col-1"><%= song.rank %></span> 
+      <span class="col-11"><%= song.title %></span>
+  <% end %>
+</div>
