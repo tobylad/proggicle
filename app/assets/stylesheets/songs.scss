@@ -1,14 +1,48 @@
-// font-family: 'Fruktur', cursive;
-// font-family: 'Aleo', serif;
+body {
+  background-color: #a2f0f2;
+}
 
 #artist-title {
   font-family: 'Fruktur', cursive;
+  margin: 25px;
+  text-align: center;
 }
 
-.songs-list {
+.songs-list, .rankings-list {
   font-family: 'Aleo', serif;
 }
 
-.list-item {
-  border: 3px solid #333;
+.inline-list-item {
+  display: inline-block;
+}
+
+.song-rank {
+  background-color: #f9b34d;
+  border: 5px solid #c87a07;
+  border-radius: 10px;
+  display: table-cell;
+  font-size: 300%;
+  font-family: 'Fruktur', cursive;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.song-title {
+  background-color: #f9b34d;
+  border: 5px solid #c87a07;
+  border-radius: 10px;
+  font-size: 150%;
+  font-family: 'Aleo', serif;
+  font-weight: bold;
+  line-height: 92px;
+  padding-left: 10px;
+  height: 100px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.draggable-song {
+  cursor: pointer;
 }
