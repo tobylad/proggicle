@@ -27,6 +27,6 @@ To run the project, type `rails s` in your terminal.  Now, navigate to a browser
 
 -Ruby on Rails  
 -jQuery   
--jQuery UI
--Bootstrap    
+-jQuery UI    
+-Bootstrap
 
