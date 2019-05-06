@@ -1,24 +1,32 @@
-# README
+# Proggicle
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project requires Ruby on Rails.  To run locally in your terminal:
 
-Things you may want to cover:
+`git clone` https://github.com/tobylad/proggicle.git
 
-* Ruby version
 
-* System dependencies
+Next, in the root folder:
 
-* Configuration
+`bundle install` + enter
 
-* Database creation
 
-* Database initialization
+`rails db:create` + enter
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+`rails db:migrate` + enter
 
-* Deployment instructions
 
-* ...
+`rails db:seed` + enter
+
+
+
+To run the project, type `rails s` in your terminal.  Now, navigate to a browser and enter http://localhost:3000/.  
+
+
+## Built With:
+
+-Ruby on Rails  
+-jQuery   
+-jQuery UI
+-Bootstrap    
+
